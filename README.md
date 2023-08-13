@@ -6,6 +6,6 @@ Link for github: https://github.com/EvgeniyKrastev/evgo.krastev.github.io
 
 Link for site:  https://evgeniykrastev.github.io/evgo.krastev.github.io/#projects 
 
-Tecnologies: HTML, CSS, HTML elements for tables, lists, margin padding  and border ,resizing for different devices
+Tecnologies: HTML, CSS, HTML elements for tables, lists, margin padding  and border ,resizing for different devices.
 
 ![websiteimg](https://github.com/EvgeniyKrastev/evgo.krastev.github.io/assets/65820929/5b87bd3b-c880-49e8-b9f9-c4755b990144)
