@@ -1,0 +1,54 @@
+
+*{
+box-sizing: border-box;	
+}
+header {
+	background-color: black;
+	text-align: center;
+	height: 15%
+}
+li {
+  display: block;
+  color: white;
+  padding: 20px;
+  width: 50vh;
+  float: left;
+  font-size: 30px;
+}
+body{
+	background-color: grey;
+	margin: 0;
+}
+.navul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+section {
+	text-align: left;
+	float: center;
+	width: 100%;
+	height: 36.9999vh;
+}
+footer{
+	height: 10vh;
+	background-color: black; 
+ 	text-align: center;
+}
+.container{    /* zadava stoinosti stil */
+	padding: 5px;
+	font-size: 15px;        
+}
+p{
+	font-size: 20px;
+	color: white;
+
+}
+h1 {
+	font-size: 30px;
+}
+aside{
+height: 37.9999vh;
+}

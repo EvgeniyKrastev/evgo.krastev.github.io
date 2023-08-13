@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="">News</a>
+				</li>
+				<li>
+					<a href="register.html">Register</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="data_div">
+			<form>
+				<h3>First name</h3>
+				<input type="text" name="firstName" value="" />
+				<h3>Seond name</h3>
+				<input type="text" name="SecondName" value="" />
+				<h3>Email</h3>
+				<input type="text" name="Email"/>
+				<h3>Birthday</h3>
+				<input type="text" name="birthday" />
+				<h3>Gender</h3>
+				<input type="radio" name="male"/><p>male</p><br/>
+				<input type="radio" name="female"/><p>female</p><br/>
+				<h3>Choose interests</h3>
+				<select name="products" multiple="multiple" >
+				  <option value="202">HTML/CSS</option>
+				  <option value="171">JavaScrypt</option>
+				  <option value="146" >C++</option>
+				  <option value="123" >C#</option>
+				</select>
+				<br/>
+				<h3>Country</h3>
+				<input list="contries" name="countries">
+				<datalist id="country">
+				  <option value="Bulgaria">
+				  <option value="Usa">
+				  <option value="Russia">
+				  <option value="Germany">
+				  <option value="Greece">	
+				</datalist>
+				<h3>Passowrd</h3>
+				<input type="password" name="pass" />
+				<h3>Repeat Password</h3>
+				<input type="password" name="pass" />
+				<br/>
+				<input   type="checkbox" name="agree" value="yes">
+				<p>I agree</p>
+				<input type="checkbox" name="agree" value="yes">
+				<p>By crating your account you argee our Terms & privacy</p>
+				<button class="button1">Cancel</button>
+				<button class="button2">Sign up</button>
+
+			</form>
+		</div>
+		<footer>
+		<p> All Rights Reserved!</p>
+	</footer>	
+</body>
+</html>

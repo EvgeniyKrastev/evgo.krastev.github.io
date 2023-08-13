@@ -1,0 +1,34 @@
+*{
+box-sizing: border-box;	
+}
+header{
+	text-align: center;
+}
+article{
+	text-align: left;
+	float: left;
+	width:64.9999%;
+	height: 75vh;
+}
+section{
+	width:98.9999%;
+}
+aside{
+	float: right;
+	width:34.9999%;
+	height: 75vh;
+}
+img{
+	height: 45vh;
+	width: 50vh;
+}
+footer{
+	text-align: center;
+
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+}

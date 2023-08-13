@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: #660066;
+}
+nav{
+	background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+section{
+	width: 58%;
+	margin: 1%;
+	padding: 2%;
+	background-color: #c2c2f0;
+	color: black;
+	float: left;
+	text-align: center;
+}
+#div1 h1{
+	margin: 15px;
+}
+img{
+	text-align: justify;
+	float: left;
+}
+aside{
+	width: 28%;
+	margin: 1%;
+	float: left;
+	background-color:  #c2c2f0;
+	text-align: center;
+	height: 400px;
+}
+aside ul{
+	list-style-type: none;
+	display: block;
+	width: 200px;
+
+}
+aside ul li{
+	text-align: center;
+}
+aside ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+video{
+	width: 420px;
+	height: 340px;
+}
+iframe{
+	margin:10px;
+}
+footer {
+	background-color: black;
+	clear: both;
+	text-align: center;
+	width: 100%;
+	height: 10vh;
+}
+
+
+input{
+	border-radius: 5px;
+	height: 15px;
+	width: 200px;
+	display: inline-block;
+
+}
+h3, p{
+	color: white;
+}
+.data_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+select{
+	width: 100px;
+}
+.button1 , .button2 {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.button1{
+background-color: #4CAF50;
+}
+.button2{
+background-color: #f44336;
+}

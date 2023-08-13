@@ -1,0 +1,56 @@
+
+*{
+box-sizing: border-box;	
+}
+header, footer{
+	border-style: dashed;
+	border-color: blue;
+	margin: 0%;
+	text-align: center;
+	background-color: white;
+
+}
+article, aside{
+	background-color: white;
+	border-color: blue;
+	border-radius: 5px;
+	border-color: blue;
+	margin: 5px;
+	text-align: center;
+	padding: 3px;
+}
+article{
+	float: left;
+	height:70vh;
+	width: 58.999%;
+	padding: 5px;
+}
+aside {
+	float:right;
+	height: 70vh;
+	width:38.9999%;
+	padding: 5px;
+}
+h1,h3{
+	margin: 10px;
+	color:blue;
+}
+body {
+	background-color: #6699ff;
+}
+p{
+	border-color: blue;
+	border-style: solid;
+	border-radius: 5px;
+}
+.clearfix::after, .clearfix::before{
+  content: "";
+  clear: both;
+  display: table;
+}
+img{
+	width: 180px;
+}
+.clearfx{
+  overflow: auto;
+}

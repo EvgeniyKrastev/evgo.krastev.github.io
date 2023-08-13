@@ -1,0 +1,13 @@
+#wrapper {
+	border: 1px solid #260d0d;
+	background-color: #c5e8ec;
+	width: 300px;
+}
+li{
+	color: #b30000;
+	font-size: 23px
+}
+hr{
+	width: 80%;
+	align-content: center;
+}
